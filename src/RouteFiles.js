@@ -24,6 +24,9 @@ const RouteFiles =()=>{
          <Route path="/detailpage/:id" element={<DetailPage/>}/>
         </Routes>
         </DataStore>
+
+
+
       </BrowserRouter>
     )
 }
