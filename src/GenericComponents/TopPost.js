@@ -16,10 +16,10 @@ const TopPost = (props) => {
         </div>
         <div className="Post_Content">
           <div className="Post_heading">
-            <h2>{Heading}</h2>
-            <p>{description}</p>
+            <h2>{Heading.slice(0, 50)}</h2>
+            <p>{description.slice(0, 100)}</p>
           </div>
-          <p className='text'>TRAVEL <span> / August 21 2017</span></p>
+          <p className='text'>TRAVEL <span> / August 21</span></p>
           <h1 className='num'>{index + 1}</h1>
         </div>
       </div>

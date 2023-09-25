@@ -22,6 +22,7 @@
 .PostImg{
     width: 600px;
     height: 200px;
+
 }
 .PostImg img{
     width: 100%;
@@ -42,6 +43,7 @@
     align-items: center;
 }
 .Post_heading h2{
+    margin-top: 20px;
     font-size: 1.1rem;
     font-weight: 700;
     overflow: hidden;
@@ -66,5 +68,13 @@
 @media screen and (max-width: 913px) {
      .Post_Contanier{
         width: 90vw;
-     }   
+     }  
+    
+     .text{
+        position: relative;
+bottom: 10px;
+     } 
+     .num{
+        top:30px;
+     }
 }
