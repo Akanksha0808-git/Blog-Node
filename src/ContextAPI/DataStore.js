@@ -9,10 +9,9 @@ function DataStore(props) {
     const getData = async () => {
       try {
         const res = await axios.get(url);
-        // console.log(res.data);
         setData(res.data);
       } catch (err) {
-        console.log("Data fetchiing is Showing Error: " + err);
+        console.log("error occured");
       }
     };
     getData();
