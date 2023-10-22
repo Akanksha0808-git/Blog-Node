@@ -15,6 +15,7 @@ function DataStore(props) {
       }
     };
     getData();
+
   }, []);
 
   return (

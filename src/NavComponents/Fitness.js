@@ -25,7 +25,7 @@ function Fitness() {
                         Fitness.filter((data) => data.id % 2 === 0 && data.category === 'Fitness').map((item, index) => {
                             return (
                                 <LatestArticle key={index}
-                                    Heading={item.heading.slice(0, 100)}
+                                    Heading={item.heading.slice(0, 70)}
                                     id={item.id} image={item.image} Category={item.category} description={item.description.slice(0, 100)} />
                             )
                         })

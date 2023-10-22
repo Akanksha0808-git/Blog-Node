@@ -12,3 +12,11 @@
     width: 100%;
     position: absolute;
   }
+  @media screen and (max-width: 734px) {
+    .video-responsive{
+      /* height: 300px; */
+      position: relative;
+      top: 90px;
+    
+    }
+  }

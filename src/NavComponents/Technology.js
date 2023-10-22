@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Store } from '../ContextAPI/DataStore'
-
+import "../App.css"
 import LatestArticle from '../GenericComponents/LatestArticle';
 import Advert from '../GenericComponents/Advert';
 import TopPost from '../GenericComponents/TopPost';
@@ -9,8 +9,7 @@ const Technology = () => {
     const [TechnoData] = useContext(Store);
     return (
         <>
-
-            <div className="TheLatest Section_Contanier">
+         <div className="TheLatest Section_Contanier">
 
                 {/* This is Latest Articles Contanier  */}
 

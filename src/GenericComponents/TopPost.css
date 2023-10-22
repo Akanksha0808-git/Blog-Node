@@ -67,6 +67,7 @@
 
 @media screen and (max-width: 913px) {
      .Post_Contanier{
+        /* border: 1px solid black; */
         width: 90vw;
      }  
     
