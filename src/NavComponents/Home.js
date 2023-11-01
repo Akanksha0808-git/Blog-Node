@@ -26,7 +26,7 @@ function Home() {
                             return (
 
                                 <Latest key={index}
-                                    Heading={item.heading.slice(0, 40)}
+                                    Heading={item.heading.slice(0, 41)}
                                     id={item.id}
                                     image={item.image}
                                     Category={item.category}
@@ -56,11 +56,11 @@ function Home() {
                         })
                     }
                 </div>
-
-
+              
                 {/* This is Top Post Container  */}
                 <div className="rightContanier" >
-                    <Advert embedId="rokGy0huYEA" />
+                <Advert embedId="rokGy0huYEA" />
+                  
                     <h2>
                         Top Posts
                         <hr style={{ width: "100px", height: "3px", background: "red", border: "none", outline: "none", borderRadius: "5px", position: "absolute" }} />
@@ -80,7 +80,7 @@ function Home() {
                         })
                     }
                 </div>
-            </div>
+                </div>
             {/* Text News Only  */}
             <div className="TheLatest">
                 <h2>The Latest

@@ -23,7 +23,7 @@ function Bollywood() {
                         BollyData.filter((data) => data.id % 3 === 0 && data.category === 'Bollywood').map((item, index) => {
                             return (
                                 <LatestArticle key={index}
-                                    Heading={item.heading.slice(0, 100)}
+                                    Heading={item.heading.slice(0, 50)}
                                     id={item.id} image={item.image} Category={item.category} description={item.description.slice(0, 100)} />
                             )
                         })
